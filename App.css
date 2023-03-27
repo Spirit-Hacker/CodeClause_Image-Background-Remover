@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.input-file::-webkit-file-upload-button{
+    all: unset;
+    opacity: 0;
+    display: block;
+    height: 0px;
+}
+
+
+label{
+    background-color: rgb(35, 91, 212);
+    padding: 1rem;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    width: 7rem;
+    margin-top: 1rem;
+}
